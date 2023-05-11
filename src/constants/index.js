@@ -24,7 +24,10 @@ import {
     tripguide,
     threejs,
     abps,
-    jss
+    jss,
+    talk,
+    promptpeller,
+    sellista
   } from "../assets";
   
   export const navLinks = [
@@ -143,35 +146,62 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Kashan's collaborative work style, attention to detail, and problem-solving skills were instrumental in creating the real-time chat application 'Conversate' - a pleasure to work with!",
+      name: "Nikunj Garg",
+      designation: "SDE",
+      company: "CSG",
+      image: "https://i.ibb.co/sHDtBDL/IMG-2525-2-removebg-preview.png",
     },
   ];
   
   const projects = [
+    
     {
-      name: "Car Rent",
+      name: "Promptpeller.ai",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Introducing a Next.js based web app for sharing AI-generated prompts. Empowering content creators with new ideas, users can easily filter prompts by category or keyword. With a streamlined and intuitive interface, the platform is accessible on desktop and mobile.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: promptpeller,
+      source_code_link: "https://github.com/kashanhz999/promptpeller.ai",
+    },
+    {
+      name: "Sellista Dashboard",
+      description:
+        "This ecommerce website dashboard, created using React.js and Syncfusion, offers a customizable experience with light and dark mode options and various themes. Its components include sales analytics, order management, and customer insights, providing retailers with valuable data to make informed decisions. The intuitive and user-friendly interface allows for easy navigation and use of the dashboard.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "syncfusion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sellista,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Conversate",
+      description:
+        "This real-time chat application built using the MERN stack incorporates socket.io for real-time communication and encryption to secure user data. It features a user-friendly interface allowing users to create and join chat rooms, view a list of users, and send and receive messages in real-time. User authentication and authorization are implemented to ensure that only authorized users can access the chat rooms and user data.",
       tags: [
         {
           name: "react",
@@ -182,54 +212,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "socket.io",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: talk,
+      source_code_link: "https://github.com/kashanhz999/Talk_RTCA",
     },
   ];
   

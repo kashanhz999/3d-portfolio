@@ -29,6 +29,9 @@ import abps from "./company/abps.png";
 import jss from "./company/jss.png"
 
 import carrent from "./carrent.png";
+import talk from "./talk.png"
+import promptpeller from "./promptpeller.png"
+import sellista from "./sellista.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -62,5 +65,8 @@ export {
   jobit,
   tripguide,
   abps,
-  jss
+  jss,
+  talk,
+  promptpeller,
+  sellista
 };
