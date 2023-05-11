@@ -40,7 +40,7 @@ const About = () => {
         </h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
         >
       I am a software engineering student with a passion for web development. I have experience in programming languages such as Python and JavaScript, and web development frameworks such as React and Node.js. I am a dedicated and motivated individual with a strong drive to learn and stay up-to-date with the latest industry trends. I am seeking a job opportunity where I can apply my skills and continue to grow as a Software Engineer.
       </motion.p>
