@@ -27,7 +27,8 @@ import {
     jss,
     talk,
     promptpeller,
-    sellista
+    sellista,
+    next
   } from "../assets";
   
   export const navLinks = [
@@ -82,7 +83,7 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
+      name: "Redux",
       icon: redux,
     },
     {
@@ -102,17 +103,21 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "docker",
+      name: "Docker",
       icon: docker,
     },
+    {
+      name:"Next.js",
+      icon:next
+    }
   ];
   
   const experiences = [
@@ -148,7 +153,7 @@ import {
       testimonial:
         "Kashan's collaborative work style, attention to detail, and problem-solving skills were instrumental in creating the real-time chat application 'Conversate' - a pleasure to work with!",
       name: "Nikunj Garg",
-      designation: "SDE",
+      designation: "SDE intern",
       company: "CSG",
       image: "https://i.ibb.co/sHDtBDL/IMG-2525-2-removebg-preview.png",
     },
