@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    abps,
+    jss
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "React Developer",
+      icon: mobile,
+    },
+    {
+      title: "Page-Turner",
       icon: creator,
     },
   ];
@@ -116,24 +118,13 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Higher Secondary Education",
+      company_name: "The Aditya Birla Public School, Jagdishpur",
+      icon: abps,
+      
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2016 - March 2017",
+      score:"8.4 CGPA",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +133,26 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Senior Secondary Education",
+      company_name: "The Aditya Birla Public School, Jagdishpur",
+      icon: abps,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "April 2018 - March 2019",
+      score:"83.4%",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "B.Tech in Computer Science Engineering",
+      company_name: "JSS Academy of Technical Education, Noida",
+      icon: jss,
+      iconBg: "#E6DEDD",
+      date: "July 2019 - August 2023",
+      score:"8.81 CGPA",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
