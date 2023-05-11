@@ -75,10 +75,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -125,12 +121,6 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2016 - March 2017",
       score:"8.4 CGPA",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
     {
       title: "Senior Secondary Education",
@@ -139,12 +129,6 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2018 - March 2019",
       score:"83.4%",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
     {
       title: "B.Tech in Computer Science Engineering",
@@ -153,12 +137,6 @@ import {
       iconBg: "#E6DEDD",
       date: "July 2019 - August 2023",
       score:"8.81 CGPA",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
   ];
   
