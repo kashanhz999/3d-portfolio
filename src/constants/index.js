@@ -181,6 +181,7 @@ import {
       ],
       image: promptpeller,
       source_code_link: "https://github.com/kashanhz999/promptpeller.ai",
+      live_link:"https://promptpeller-ai-kashanhz999.vercel.app/"
     },
     {
       name: "Sellista Dashboard",
@@ -202,6 +203,7 @@ import {
       ],
       image: sellista,
       source_code_link: "https://github.com/",
+      live_link:"https://sellista-dashboard.netlify.app/"
     },
     {
       name: "Conversate",
@@ -223,6 +225,7 @@ import {
       ],
       image: talk,
       source_code_link: "https://github.com/kashanhz999/Talk_RTCA",
+      live_link:""
     },
   ];
   

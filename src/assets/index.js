@@ -35,6 +35,8 @@ import promptpeller from "./promptpeller.png"
 import sellista from "./sellista.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import link from "./link.png"
+import sad from "./sad.png"
 
 export {
   logo,
@@ -70,5 +72,7 @@ export {
   talk,
   promptpeller,
   sellista,
-  next
+  next,
+  link,
+  sad
 };

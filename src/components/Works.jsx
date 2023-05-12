@@ -3,7 +3,8 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github,link,sad } from "../assets";
+
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -44,7 +46,37 @@ const ProjectCard = ({
               />
             </div>
           </div>
+
+          
+           {live_link?<div className="absolute inset-x-0 flex justify-end m-3 card-img_hover">
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className=" w-10 h-10 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex justify-center items-center cursor-pointer object-contain"
+            >
+              <img
+                src={link}
+                alt="deployment link"
+                className="w-7 h-7 rounded-full"
+              />
+            </div>
+          </div>:(
+            <div className="absolute inset-x-0 flex justify-end m-3 card-img_hover">
+            <div
+              onClick={() => alert("Deployment link coming soon. Please check back later for updates. Thank you for your patience.")}
+              className=" w-10 h-10 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex justify-center items-center cursor-pointer object-contain"
+            >
+              <img
+                src={sad}
+                alt="sad emoji"
+                className="w-6 h-6 rounded-full text-white "
+              />
+            </div>
+          </div>
+          )}
+          
+          
         </div>
+        
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px] text-justify">{description}</p>
