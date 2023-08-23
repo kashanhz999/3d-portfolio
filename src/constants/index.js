@@ -28,7 +28,9 @@ import {
     talk,
     promptpeller,
     sellista,
-    next
+    next,
+    genius,
+    threads
   } from "../assets";
   
   export const navLinks = [
@@ -144,7 +146,7 @@ import {
       icon: jss,
       iconBg: "#E6DEDD",
       date: "July 2019 - August 2023",
-      score:"8.81 CGPA",
+      score:"9.0 CGPA",
     },
   ];
   
@@ -160,6 +162,52 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Genius",
+      description:
+        "Genius is an AI-SAAS application that offers a suite of creative tools including code, music, image, and video generation, as well as conversational AI. Built using Next.js and Tailwind CSS, it integrates Prisma, MySQL, Clerk, Crisp, OpenAI API, and Replicate API. Users can upgrade to a Pro account via Stripe for unlimited access. It enhances creativity, simplifies complex tasks, and generates revenue through freemium and subscription models. It empowers users to explore new creative horizons with AI-generated content.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: genius,
+      source_code_link: "https://github.com/kashanhz999/ai-saas",
+      live_link:"https://genius-kh.vercel.app/"
+    },
+    
+    
+    {
+      name: "Threads",
+      description:
+        "Created a Threads platform clone using Next.js 13.4 for speed and MongoDB for structured data. TailwindCSS provided a modern design, while Clerk ensured secure logins and easy file uploads. Shadcn components enhanced visuals, and webhooks enabled real-time updates. With middleware, API actions, and Next.js features, I prioritized security and functionality, all deployed effectively.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threads,
+      source_code_link: "https://github.com/kashanhz999/threads_app",
+      live_link:"https://threads-kh.vercel.app/"
+    },
     
     {
       name: "Promptpeller.ai",

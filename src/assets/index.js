@@ -37,6 +37,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import link from "./link.png"
 import sad from "./sad.png"
+import threads from "./threads.png"
+import genius from "./genius.png"
 
 export {
   logo,
@@ -74,5 +76,7 @@ export {
   sellista,
   next,
   link,
-  sad
+  sad,
+  threads,
+  genius
 };
