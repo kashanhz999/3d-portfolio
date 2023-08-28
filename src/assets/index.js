@@ -39,7 +39,7 @@ import link from "./link.png"
 import sad from "./sad.png"
 import threads from "./threads.png"
 import genius from "./genius.png"
-
+import nike from "./nike.png"
 export {
   logo,
   backend,
@@ -78,5 +78,6 @@ export {
   link,
   sad,
   threads,
-  genius
+  genius,
+  nike
 };

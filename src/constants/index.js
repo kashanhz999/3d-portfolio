@@ -30,7 +30,8 @@ import {
     sellista,
     next,
     genius,
-    threads
+    threads,
+    nike
   } from "../assets";
   
   export const navLinks = [
@@ -232,6 +233,23 @@ import {
       live_link:"https://promptpeller-ai-kashanhz999.vercel.app/"
     },
     {
+      name: "Nike",
+      description:"Developed a dynamic Nike clone using React and enhance its styling with Tailwind CSS for a seamless user experience that replicates the iconic brand's aesthetic and functionality.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      source_code_link: "https://github.com/kashanhz999/Nike_Frontend",
+      live_link:"https://nike-kh.netlify.app/"
+    },
+    {
       name: "Sellista Dashboard",
       description:
         "This ecommerce website dashboard, created using React.js and Syncfusion, offers a customizable experience with light and dark mode options and various themes. Its components include sales analytics, order management, and customer insights, providing retailers with valuable data to make informed decisions. The intuitive and user-friendly interface allows for easy navigation and use of the dashboard.",
@@ -250,7 +268,7 @@ import {
         },
       ],
       image: sellista,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/kashanhz999/Sellista-Dashboard",
       live_link:"https://sellista-dashboard.netlify.app/"
     },
     {
